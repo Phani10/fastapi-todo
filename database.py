@@ -9,7 +9,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # )
 
 
-SQLALCHEMY_DATABASE_URL = "postgresal://oacbbgnq:BD3FCUT-gBO9tg0FyU6tChHpIOMNqAHF@floppy.db.elephantsql.com/oacbbgnq"
+SQLALCHEMY_DATABASE_URL = "postgresql://oacbbgnq:BD3FCUT-gBO9tg0FyU6tChHpIOMNqAHF@floppy.db.elephantsql.com/oacbbgnq"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL
